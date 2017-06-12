@@ -9,6 +9,7 @@ public class Action
   public string keyString;
   public string actionDescription;
 
-  public Chapter valueChapter;
+  public List<Flag> flagsToSet;
+  public List<Flag> flagsToUnset;
 
 }
